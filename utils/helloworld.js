@@ -1,6 +1,6 @@
 function helloWorld(){
-    hi = "Hello";
-    return{hi};
+    // hi = "Hello";
+    return "Hello";
 };
 
 export default helloWorld;

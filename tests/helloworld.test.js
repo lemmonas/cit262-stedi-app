@@ -1,5 +1,8 @@
 import helloWorld from '../utils/helloworld.js';
+import assert from 'assert';
 
 it ("Should say hello", ()=>{
-    console.log(helloWorld());
-})
+    const hi = helloWorld();
+    // console.log(helloWorld());
+    assert.equal(hi,"Hello");
+});
